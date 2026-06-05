@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
@@ -27,7 +26,7 @@
             box-sizing: border-box;
         }
 
-        /* รูปโปรไฟล์ (สัญลักษณ์ 🦅) */
+        /* รูปโปรไฟล์ */
         .profile-pic {
             width: 120px;
             height: 120px;
@@ -77,7 +76,7 @@
             box-sizing: border-box;
         }
 
-        /* เอฟเฟกต์ตอนนำเมาส์ไปชี้ (Hover) */
+        /* เอฟเฟกต์ตอนนำเมาส์ไปชี้ */
         .link-btn:hover {
             background-color: #00ff66;
             color: #0a0e17;
@@ -102,7 +101,7 @@
 </head>
 <body>
     <div class="container">
-        <!-- รูปโปรไฟล์ สามารถเปลี่ยน 🦅 เป็นแท็ก <img> เพื่อใส่โลโก้ได้ -->
+        
         <div class="profile-pic">🦅</div>
         
         <h1>The Growth Hub</h1>
@@ -112,21 +111,19 @@
             เลิกเป็นเหยื่อเจ้ามือ แล้วมาดักซุ่มล่ากำไรจากหุ้นเปลี่ยนโลก! 🎯
         </p>
         
-        <!-- ลิงก์ YouTube (วางไว้บนสุดเพราะเป็นสมรภูมิหลัก) -->
-        <a href="https://www.youtube.com/channel/UCZFgTLiwoPYC8ifafHCkXRA" class="link-btn" target="_blank" rel="noopener noreferrer">
-            <span class="icon">🔴</span> เจาะลึกหุ้นซุ่ม & แฉความลับเจ้ามือ
-        </a>
-        
-        <!-- ลิงก์ TikTok -->
+        <!-- ลิงก์ช่องทางต่างๆ แบบกระชับ -->
         <a href="https://www.tiktok.com/@thegrowthhub.97" class="link-btn" target="_blank" rel="noopener noreferrer">
-            <span class="icon">⚫</span> กระสุนสั้น 60 วิ ทุบมายด์เซ็ต
-        </a>
-        
-        <!-- ลิงก์ Instagram -->
-        <a href="https://www.instagram.com/thegrowthhub.9x/" class="link-btn" target="_blank" rel="noopener noreferrer">
-            <span class="icon">🟣</span> อัปเดตหน้ากระดาน & สัญญาณซุ่มยิง
+            <span class="icon">⚫</span> Tiktok
         </a>
 
+        <a href="https://www.instagram.com/thegrowthhub.9x/" class="link-btn" target="_blank" rel="noopener noreferrer">
+            <span class="icon">🟣</span> Instagram
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCZFgTLiwoPYC8ifafHCkXRA" class="link-btn" target="_blank" rel="noopener noreferrer">
+            <span class="icon">🔴</span> Youtube
+        </a>
+        
         <div class="footer">
             © 2026 The Growth Hub. All rights reserved.
         </div>
